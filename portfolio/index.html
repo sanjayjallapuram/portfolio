@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay's Portfolio</title>
+    <link href="style.css" rel="Stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- Home -->
+        <div id="Home">
+            <nav>
+                <h2 style="margin-block: auto;">SANJAY JALLAPURAM</h2>
+                <ul class="list-div">
+                    <i class="fa-solid fa-xmark menu-close-button"></i>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About Me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <button class="theme-changer dark"><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark mode</button>
+                <i class="fa-solid fa-bars menu-button"></i>
+            </nav>
+            <div class="home-content">
+                <div class="home-content-text" >
+                    <h1>Hello,<br>I'M Sanjay Jallapuram</h1>
+                    <h1>Full Stack Web Developer</h1>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/sanjay-jallapuram/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sanjayjallapuram"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/7013021860" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/sa_njay_17/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <button class="resume"><a href="sanjay jallapuram- resume.pdf" >Resume</a></button>
+                </div>
+                <div class="home-img-div" >
+                    <img class="home-content-img" src="my-image.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div id="About">
+            <div class="about-me">
+                <div class="aboutme-content">
+                   <h1>About Me</h1>
+                   <p style="padding-top: 24px;">Hey there! I'm Sanjay Jallapuram from Hyderabad currently studying at St.Martins Engineering College
+                     My passion lies in Web development , where I've honed my skills through various projects. 
+                     With a strong emphasis on communication, I thrive in collaborative environments. I believe in continuous learning and embracing challenges as 
+                     opportunities for growth. Ultimately, my goal is to contribute to impactful projects that drive innovation. Dive deeper into 
+                     my portfolio to explore some of my projects and get a glimpse into my coding journey. If you're passionate about technology and innovation, 
+                     I'd love to connect and explore potential collaborations!</p>
+                    <br>
+                   <div>
+                      <button class="skills active-link">Skills</button>
+                      <button class="education">Education</button>
+                   </div>
+                   <div class="skills-div" style="position: relative;">
+                     <div class="skill">
+                        <h2 class="skill-header"><i class="fa-brands fa-html5"></i>&nbsp;&nbsp;Front-End</h2><br>
+                        <ul class="skill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>BootStrap</li>
+                            <li>ReactJS</li>
+                        </ul>
+                     </div>
+                     <div class="skill">
+                        <h2 class="skill-header"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;Back-End</h2><br>
+                        <ul class="skill-list">
+                            <li>NodeJs</li>
+                            <li>ExpressJs</li>
+                            <li>Ejs</li>
+                            <li>MongoDB</li>
+                            <li>SQL</li>
+                        </ul>
+                     </div>
+                     <div class="skill">
+                        <h2 class="skill-header"><i class="fa-brands fa-java"></i>&nbsp;&nbsp;Programming Language</h2><br>
+                        <ul class="skill-list">
+                            <li>Java</li>
+                        </ul>
+                     </div>
+                   </div>
+                   <div class="education-div" style="position: relative;left:-5000px">
+                    <div class="education">
+                        <h3>B.Tech</h3>
+                        <p>Computer Science Engineering from St.Martins Engineering College <br> Kompally,Hyderabad &nbsp;&nbsp;(studying)</p>
+                    </div>
+                    <div class="education">
+                        <h3>Diploma</h3>
+                        <p>Electrical and Electronics Engineering from St.peters Engineering College <br> Maisammaguda,Hyderabad &nbsp;&nbsp;2022</p>
+                    </div>
+                    <div class="education">
+                        <h3>School</h3>
+                        <p>from B.R.J.C Parsi High School <br>Secunderabad ,Hyderabad &nbsp;&nbsp; 2019</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-3" id="Projects">
+            <h1>My Projects</h1>
+            <div class="projects-div">
+                <h2 class="project-title">React countries-api website</h2>
+                <div class="work">
+                    <img src="countries-api.png">
+                    <div class="layer">
+                        <h2>React countries-api website</h2><br>
+                        <p>Created a dynamic React website Using Countries Api where the website gives the information about countries
+                            where the user can see in detail information about each country. Added a functionality of search which is used to search specific country
+                            and Also Added the Feature of filter countries based on the region, Used the Feature of Dark mode and light mode.
+                        </p><br>
+                        <a href="https://sanjay-react-countries-api.netlify.app/"><i class="fa-solid fa-share-from-square"></i></a>
+                    </div>
+                </div>
+                <h2 class="project-title">wanderlust website</h2>
+                <div class="work">
+                    <img src="wanderlust.png">
+                    <div class="layer">
+                        <h2>wanderlust website</h2><br>
+                        <p>Created a dynamic full-stack website similar to Airbnb's functionality,enabling property 
+                            owners to list rentals and customers to book accommodations, optimized user experience 
+                            through MVC architecture and leveraging HTML, CSS, Rest API, Node.js, Express.js, 
+                            MongoDB. 
+                        </p><br>
+                        <a href="https://sanjayjallapuram-wanderlust.onrender.com/listings"><i class="fa-solid fa-share-from-square"></i></a>
+                    </div>
+                </div>
+                <h2 class="project-title">School website</h2>
+                <div class="work">
+                    <img src="school website.png">
+                    <div class="layer">
+                        <h2>School website</h2><br>
+                        <p>Created a School website as a freelance project Which is Fully Responsive with the Mobile version too. using HTML,CSS and JavaScript.
+                        </p><br>
+                        <a href="https://sanjay-school-website.netlify.app/"><i class="fa-solid fa-share-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-4" id="Contact">
+            <h1>Contact Me</h1>
+            <div class="contact">
+                <div class="contactme-details">
+                    <p><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;&nbsp;jallapuramsanjay@gmail.com</p><br>
+                    <p><i class="fa-solid fa-phone"></i> &nbsp;&nbsp;&nbsp;7013021860</p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/sanjay-jallapuram/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sanjayjallapuram"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/7013021860" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/sa_njay_17/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <button class="resume"><a href="sanjay jallapuram- resume.pdf" >Resume</a></button>
+                </div>
+                <div class="contactme-message">
+                    <form name='submit-to-google-sheet' class="form">
+                        <input type="text" name="Name" placeholder="Name"><br>
+                        <input type="text" name="Email" placeholder="your email"><br>
+                        <textarea name="Message" placeholder="Message" ></textarea><br>
+                        <button class="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">© 2024 copy right Sanjay Jallapuram.</div>
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
